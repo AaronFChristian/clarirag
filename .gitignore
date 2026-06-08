@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.pyc
+*.pkl
+.DS_Store
+data/raw/
+venv/
+*.egg-info/
+dist/
+evals/results/
