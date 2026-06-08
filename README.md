@@ -97,9 +97,11 @@ MCP Server      exposes KB as tool for Claude Desktop / any agent
 
 ---
 
+---
+
 ## Project Structure
 
-
+```
 clarirag/
 ├── src/
 │   ├── ingestion/
@@ -129,10 +131,9 @@ clarirag/
 │   └── raw/                    # WHO PDFs (not committed)
 ├── DECISIONS.md                # 10 architectural decision records
 └── .github/workflows/          # CI eval gate
-
+```
 
 ---
-
 ## Key Design Decisions
 
 See [DECISIONS.md](./DECISIONS.md) for full architectural decision records. Key choices:
